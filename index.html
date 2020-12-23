@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.min.css">
+    <link rel="stylesheet" href="css/all.min.css"  >
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Langar&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="img/lihemen.JPG" type="image/x-icon">
+		<meta
+			name="description"
+			content="This is a portfolio for Hemense Lan (Lihemen). I build custom fully designed, SEO optimized, fast and scalable websites and webapps using various web technologies. Portfolio showcasing my works and skillset with links to various social media platforms. "
+		/>
+		<title>Hemense Lan | My Portfolio</title>
+	</head>
+	<body>
+		<header class="header">
+			<nav class="navbar">
+        <ul class="nav-links">
+          <li><a href="#" class="nav-link">Home</a></li>
+          <li><a href="#about-me" class="nav-link">About</a></li>
+          <li><a href="#my-projects" class="nav-link">Projects</a></li>
+          <li><a href="#my-skills" class="nav-link">SKills</a></li>
+          <li><a href="#contact-me" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+			<div class="menu-btn" onclick="openNav()">
+        <div class="btn-line"></div>
+        <div class="btn-line"></div>
+        <div class="btn-line"></div>
+      </div>
+      <div class="mobile-nav" id="sidenav">
+        <a href="javascript:void(0)" onclick="closeNav()"><i class="fas fa-times close-btn"></i></a>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#about-me">About Me</a></li>
+          <li><a href="#my-skills">My Skills</a></li>
+          <li><a href="#my-projects">My Projects</a></li>
+          <li><a href="#contact-me">Contact</a></li>
+        </ul>
+      </div>
+		</header>
+		<main class="main">
+			<div class="banner">
+				<div class="banner-text">
+          <h1>Hemense <span class="text-mint">I. Lan</span></h1>
+          <p>Fullstack Developer | <span class="text-mint">Mobile App Developer </span>| Engineer</p>
+        </div>
+				<div class="banner-links">
+					<span><a href="" class="banner-link">My Projects</a></span>
+					<span><a href="" class="banner-link">Contact Me</a></span>
+				</div>
+      </div>
+      <div id="my-skills" class="about">
+        <p>
+          <h2 class="title">What I do</h2>
+          <p class="subtitle">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Saepe, earum.</p>
+        </p>
+        <div class="about-grid">
+          <div class="col">
+            <h3>Mobile App Development</h3>
+            <!-- <span><i class="fab fa-android fa-5x text-mint"></i></span> -->
+            <img src="img/icons/smartphone.png" />
+            <p class="three-lines">Take your business to the next level by getting your custom mobile app tailored to your use case and your customers. Building fast, lightweight and user friendly mobile apps with top notch pixel perfect designs is my forte.</p>
+          </div>
+          <div class="col">
+            <h3>Website Development</h3>
+            <!-- <span><i class="fas fa-laptop fa-5x text-mint"></i></span> -->
+            <img src="img/icons/analytics.png" />
+            <p class="three-lines">Building powerful single page applications (SPAs) and traditional websites have never been better. Leveraging new web technologies to deliver complexity for very powerful and data rich websites and progressive web apps</p>
+          </div>
+          <div class="col">
+            <h3>API Development</h3>
+            <!-- <span><i class="fas fa-atom fa-5x text-mint"></i></span> -->
+            <img src="img/icons/api.png" />
+            <p class="three-lines">Using Node.js which is a powerful framework, I build microservices and APIs tailored to your very need, e-commerce, finance, education or a personal website. I am able to deliver a service code suited for each use case</p>
+          </div>
+        </div>
+      </div>
+      <div class="skills">
+        <img src="img/icons/amazon.png" alt="amazon web service"/>
+        <img src="img/icons/mongodb.png" alt="mongodb" />
+        <img src="img/icons/github.png" alt="github" />
+        <img src="img/icons/html-5.png" alt="html-logo" />
+        <img src="img/icons/database.png" alt="sql-db" />
+        <img src="img/icons/javascript.png" alt="javascript" />
+        <img src="img/icons/nodejs1.png" alt="nodejs" />
+        <img src="img/icons/react.png" alt="reactjs" />
+      </div>
+      <div id="my-projects" class="projects">
+        <p>
+          <h2 class="title">My Projects</h2>
+          <p class="subtitle">A general overview on some projects I've worked on over the years</p>
+        </p>
+        <div class="projects-grid">
+				<div class="item">
+					<a>
+						<img src="./img/projects/dev.png" alt="project1" />
+					</a>
+					<a
+						href="https://avalon-connect.herokuapp.com"
+						target="_blank"
+						class="btn-light"
+					>
+						<i class="fas fa-eye"></i> Project
+					</a>
+					<a
+						href="https://github.com/Lihemen/devconnect"
+						target="_blank"
+						class="btn-dark"
+					>
+						<i class="fab fa-github"></i> Github
+					</a>
+				</div>
+				<div class="item">
+					<a>
+						<img src="./img/projects/node.png" alt="project2" />
+					</a>
+					<a
+						href="https://github.com/Lihemen/node_postgres"
+						target="_blank"
+						class="btn-light"
+					>
+						<i class="fas fa-eye"></i> Project
+					</a>
+					<a
+						href="https://github.com/Lihemen/node_postgres"
+						target="_blank"
+						class="btn-dark"
+					>
+						<i class="fab fa-github"></i> Github
+					</a>
+				</div>
+				<div class="item">
+					<a>
+						<img src="./img/projects/calls.png" alt="project3" />
+					</a>
+					<a
+						href="https://github.com/Lihemen/Whatsapp-clone"
+						target="_blank"
+						class="btn-light"
+					>
+						<i class="fas fa-eye"></i> Project
+					</a>
+					<a
+						href="https://github.com/Lihemen/Whatsapp-clone"
+						target="_blank"
+						class="btn-dark"
+					>
+						<i class="fab fa-github"></i> Github
+					</a>
+				</div>
+				<div class="item">
+					<a>
+						<img src="./img/projects/home.png" alt="project4" />
+					</a>
+					<a
+						href="https://ituunes.herokuapp.com"
+						target="_blank"
+						class="btn-light"
+					>
+						<i class="fas fa-eye"></i> Project
+					</a>
+					<a
+						href="https://github.com/Lihemen/iTunes"
+						target="_blank"
+						class="btn-dark"
+					>
+						<i class="fab fa-github"></i> Github
+					</a>
+				</div>
+				<div class="item">
+					<a>
+						<img src="./img/projects/furniture.png" alt="project5" />
+					</a>
+					<a
+						href="https://avalon-interior.herokuapp.com"
+						target="_blank"
+						class="btn-light"
+					>
+						<i class="fas fa-eye"></i> Project
+					</a>
+					<a
+						href="https://github.com/Lihemen/furniture"
+						target="_blank"
+						class="btn-dark"
+					>
+						<i class="fab fa-github"></i> Github
+					</a>
+				</div>
+				<div class="item">
+					<a href="">
+						<img src="./img/projects/expense_bot.png" alt="project6" />
+					</a>
+					<a
+						href="https://fg-expense-bot.herokuapp.com"
+						target="_blank"
+						class="btn-light"
+					>
+						<i class="fas fa-eye"></i> Project
+					</a>
+					<a
+						href="https://github.com/hngi/expense-bot"
+						target="_blank"
+						class="btn-dark"
+					>
+						<i class="fab fa-github"></i> Github
+					</a>
+				</div>
+			</div>
+		
+      </div>
+      <div class="bio">
+        <p>
+          <h2 class="title">About <span class="text-mint">Me</span></h2>
+          <p class="subtitle">Let me tell you about myself...</p>
+        </p>
+        <div class="bio-info">
+          <img src="img/lihemen.JPG" alt="Hemense Lan">
+          <div class="text" id="about-me">
+            <h3 class="text-mint title">BIO</h3>
+            <p>I am a web developer with a vast array of knowledge in many different front-end technologies, responsive frameworks, databases and best code practices while using javascript (node.js) as my primary back-end language. I am currently exploring building mobile applications with React Native. My objective is simply to be the best developer I can be and to contribute to the technology industry in any way I can. I am dedicated to perfecting my craft by learning from more seasoned developers, remaining humble, and continuously making strides to learn all that I can about development. I am currently looking for opportunities to collaborate on projects and/or internships and full-time remote opportunities. I believe that my understanding of problem solving and complex algorithms are skills that have and will always continue to contribute to my overall success as a devloper.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="contact" id="contact-me">
+        <h3 class="title">Let's <span class="text-mint">Connect</span></h3>
+        <p class="social-links">
+          <a href="https://www.facebook.com/MrHilz" target="_blank" rel="noreferrer noopener"><img src="img/icons/facebook.png" alt="facebook"></a>
+          <a href="https://linkedin.com/in/hemense-lan-1303681b9" target="_blank" rel="noreferrer noopener"><img src="img/icons/linkedin.png" alt="linkedin"></a>
+          <a href="https://wa.me/+2347011056442" target="_blank" rel="noreferrer noopener"><img src="img/icons/whatsapp.png" alt="whatsapp"></a>
+          <a href="https://www.twitter.com/hemen___" target="_blank" rel="noreferrer noopener"><img src="img/icons/twitter.png" alt="twitter"></a>
+          <a href="https://www.instagram/___hemen___" target="_blank" rel="noreferrer noopener"><img src="img/icons/instagram.png" alt="instagram"></a>
+          <a href="https://www.github.com/Lihemen" target="_blank" rel="noreferrer noopener"><img src="img/icons/github.png" alt="github"></a>
+          <a href="mailto:lihemen@gmail.com?subject = Hello, I would like to contact you about an opportunity"><img src="img/icons/gmail.png" alt="email"></a>
+        </p>
+      </div>
+		</main>
+    <footer class="footer">
+      <script data-name="BMC-Widget" src="https://cdnjs.buymeacoffee.com/1.0.0/widget.prod.min.js" data-id="hemen" data-description="Support me on Buy me a coffee!" data-message="Thank you for visiting. You can now buy me a coffee!" data-color="#40DCA5" data-position="Right" data-x_margin="18" data-y_margin="18"></script>
+    </footer>
+    
+    <script src="./js/jquery.min.js"></script>
+    <script src="./js/index.js"></script>
+	</body>
+</html>
